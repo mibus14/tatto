@@ -4,7 +4,7 @@ body {
 }
 
 .navbar {
-  background: #002b4f !important; /* Azul oscuro */
+  background: #000000 !important; /* Negro */
   padding: 0 0;
 }
 
@@ -15,12 +15,12 @@ body {
 
 .navbar .nav-link:hover {
   color: #ffffff !important; /* Texto blanco al hacer hover */
-  background-color: #f1162c !important; /* Fondo rojo al hacer hover */
+  background-color: #d71c1c !important; /* Rojo intenso al hacer hover */
 }
 
 .navbar .nav-link.active {
   color: #ffffff !important; /* Texto blanco para enlace activo */
-  background-color: #f1162c !important; /* Fondo rojo para enlace activo */
+  background-color: #d71c1c !important; /* Rojo intenso para enlace activo */
   border-radius: 50px;
 }
 
@@ -30,21 +30,21 @@ body {
 
 .navbar.navbar-bg-onscroll a.nav-link:hover {
   color: #ffffff !important; /* Texto blanco al hacer hover */
-  background-color: #f1162c !important; /* Fondo rojo al hacer hover */
+  background-color: #d71c1c !important; /* Rojo intenso al hacer hover */
 }
 
 .navbar.navbar-bg-onscroll a.nav-link.active {
   color: #ffffff !important; /* Texto blanco para enlace activo */
-  background-color: #f1162c !important; /* Fondo rojo para enlace activo */
+  background-color: #d71c1c !important; /* Rojo intenso para enlace activo */
 }
 
 .navbar-bg-onscroll {
-  background: #0d1232 !important; /* Azul oscuro */
+  background: #000000 !important; /* Negro */
   box-shadow: 1px 1px 1px #3333331f;
 }
 
 .text-primary {
-  color: #3098e3 !important; /* Azul claro */
+  color: #d71c1c !important; /* Rojo intenso */
 }
 
 .navbar-dark .navbar-brand, .navbar-dark .navbar-brand:hover {
@@ -66,7 +66,7 @@ body {
 }
 
 .navbar .navbar-nav .nav-item .nav-link.active {
-  background: #f1162c !important; /* Rojo fuerte */
+  background: #d71c1c !important; /* Rojo intenso */
   border-radius: 50px;
 }
 
@@ -75,12 +75,10 @@ body {
   font-size: 24px;
 }
 
-/*----------------------------------
-  Header
-------------------------------------*/
+/*---------------------------------- Header ------------------------------------*/
 @media (max-width: 767px) {
   .navbar-expand-sm.fixed-top {
-    background-color: #002b4f !important; /* Azul oscuro */
+    background-color: #000000 !important; /* Negro */
     padding: 10px 0; /* Espaciado interno */
   }
 
@@ -90,21 +88,21 @@ body {
   }
 
   .navbar .navbar-toggler {
-    border-color: #f1162c !important; /* Borde rojo para el botón del menú */
+    border-color: #d71c1c !important; /* Borde rojo para el botón del menú */
   }
 
   .navbar .navbar-toggler-icon {
-    background-color: #f1162c !important; /* Ícono rojo */
+    background-color: #d71c1c !important; /* Ícono rojo */
   }
 }
 
 @media (max-width: 991px) {
   .navbar-expand-md.fixed-top {
-    background-color: #002b4f !important; /* Azul oscuro */
+    background-color: #000000 !important; /* Negro */
   }
 
   .onCollapse {
-    background: #002b4f !important; /* Azul oscuro */
+    background: #000000 !important; /* Negro */
     padding: 0 20px;
   }
 
@@ -115,7 +113,7 @@ body {
 
 @media (max-width: 1199px) {
   .navbar-expand-lg.fixed-top {
-    background-color: #002b4f !important; /* Azul oscuro */
+    background-color: #000000 !important; /* Negro */
     padding-left: 15px;
     padding-right: 15px;
   }
