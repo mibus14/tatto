@@ -1,0 +1,122 @@
+/* Evitar desplazamiento horizontal en dispositivos móviles */
+body {
+  overflow-x: hidden;
+}
+
+.navbar {
+  background: #002b4f !important; /* Azul oscuro */
+  padding: 0 0;
+}
+
+.navbar a.nav-link {
+  color: #ffffff !important; /* Texto blanco */
+  padding: 5px 15px !important;
+}
+
+.navbar .nav-link:hover {
+  color: #ffffff !important; /* Texto blanco al hacer hover */
+  background-color: #f1162c !important; /* Fondo rojo al hacer hover */
+}
+
+.navbar .nav-link.active {
+  color: #ffffff !important; /* Texto blanco para enlace activo */
+  background-color: #f1162c !important; /* Fondo rojo para enlace activo */
+  border-radius: 50px;
+}
+
+.navbar.navbar-bg-onscroll a.nav-link {
+  color: rgba(255, 255, 255, 0.7) !important; /* Texto semi-transparente */
+}
+
+.navbar.navbar-bg-onscroll a.nav-link:hover {
+  color: #ffffff !important; /* Texto blanco al hacer hover */
+  background-color: #f1162c !important; /* Fondo rojo al hacer hover */
+}
+
+.navbar.navbar-bg-onscroll a.nav-link.active {
+  color: #ffffff !important; /* Texto blanco para enlace activo */
+  background-color: #f1162c !important; /* Fondo rojo para enlace activo */
+}
+
+.navbar-bg-onscroll {
+  background: #0d1232 !important; /* Azul oscuro */
+  box-shadow: 1px 1px 1px #3333331f;
+}
+
+.text-primary {
+  color: #3098e3 !important; /* Azul claro */
+}
+
+.navbar-dark .navbar-brand, .navbar-dark .navbar-brand:hover {
+  color: #ffffff !important; /* Texto blanco */
+  font-weight: bolder;
+}
+
+.navbar-dark .navbar-brand {
+  color: #ffffff !important; /* Texto blanco */
+}
+
+.navbar .navbar-nav .nav-item .nav-link {
+  padding: 0.625rem 1.25rem;
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -ms-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s;
+}
+
+.navbar .navbar-nav .nav-item .nav-link.active {
+  background: #f1162c !important; /* Rojo fuerte */
+  border-radius: 50px;
+}
+
+.navbar-brand b {
+  font-family: 'Rubik', sans-serif;
+  font-size: 24px;
+}
+
+/*----------------------------------
+  Header
+------------------------------------*/
+@media (max-width: 767px) {
+  .navbar-expand-sm.fixed-top {
+    background-color: #002b4f !important; /* Azul oscuro */
+    padding: 10px 0; /* Espaciado interno */
+  }
+
+  .navbar .navbar-nav .nav-item .nav-link {
+    padding: 0.5rem 1rem; /* Espaciado para móviles */
+    font-size: 14px; /* Tamaño de fuente más pequeño */
+  }
+
+  .navbar .navbar-toggler {
+    border-color: #f1162c !important; /* Borde rojo para el botón del menú */
+  }
+
+  .navbar .navbar-toggler-icon {
+    background-color: #f1162c !important; /* Ícono rojo */
+  }
+}
+
+@media (max-width: 991px) {
+  .navbar-expand-md.fixed-top {
+    background-color: #002b4f !important; /* Azul oscuro */
+  }
+
+  .onCollapse {
+    background: #002b4f !important; /* Azul oscuro */
+    padding: 0 20px;
+  }
+
+  .inner-page .onCollapse a {
+    color: #ffffff !important; /* Texto blanco */
+  }
+}
+
+@media (max-width: 1199px) {
+  .navbar-expand-lg.fixed-top {
+    background-color: #002b4f !important; /* Azul oscuro */
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}

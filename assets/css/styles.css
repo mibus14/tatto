@@ -1,0 +1,267 @@
+/* 
+Author: WebThemez.com
+License: https://webthemez.com/license 
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Rubik&display=swap'); 
+@import url('https://fonts.googleapis.com/css?family=Coda+Caption:800&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Courgette&display=swap');
+
+.h1, .h2, .h3, .h4, .h5, .h6, .h7,
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.6;
+  font-weight: 600;
+}
+
+h1, h2 {
+  font-family: 'Rubik', sans-serif;
+  font-family: 'Coda Caption', sans-serif;
+  font-family: 'Courgette', cursive;
+}
+
+.navbar-dark .navbar-brand {
+  font-family: 'Coda Caption', sans-serif;
+}
+
+.navbar-dark .navbar-brand span {
+  color: #d71c1c !important; /* Rojo intenso */
+}
+
+.bg-primary {
+  color: #fff !important;
+  background-color: #002b4f !important; /* Azul oscuro */
+}
+
+.btn-primary {
+  color: #fff !important;
+  border-color: #d71c1c !important;
+  background: #d71c1c !important; /* Rojo intenso */
+}
+
+.text-primary {
+  color: #d71c1c !important; /* Rojo intenso */
+}
+
+header {
+  /* Mantén el espacio original */
+}
+
+.navbar .navbar-nav .nav-item .nav-link {
+  color: #ffffff;
+  font-size: 0.937rem;
+  font-weight: 600;
+  padding: 0.625rem 1.25rem;
+  border-radius: 50px;
+  font-family: 'Rubik', sans-serif;
+  letter-spacing: 1px;
+}
+
+::-moz-selection {
+  color: #fff;
+  background-color: #00396b; /* Azul medio */
+}
+
+::selection {
+  color: #fff;
+  background-color: #00396b;
+}
+
+.bg-primary ::-moz-selection {
+  color: #00396b;
+  background-color: #fff;
+}
+
+.bg-primary ::selection {
+  color: #00396b;
+  background-color: #fff;
+}
+
+.bg-overlay, .hero-img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.hero-img {
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: cover;
+}
+
+.inner-page {
+  background: #00396b; /* Azul medio */
+}
+
+.price-card .card-body ul li {
+  line-height: 38px;
+}
+
+.contact-info i {
+  font-size: 24px;
+  color: #d71c1c; /* Rojo */
+}
+
+.team-dp ul {
+  display: block;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.team-dp {
+  text-align: center;
+  display: block;
+}
+
+.carousel-inner img {
+  width: 100%;
+  height: 100%;
+}
+
+.carousel-caption {
+  position: absolute;
+  left: 10px;
+  z-index: 10;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #fff;
+  text-align: left;
+  top: 40%;
+  max-width: 500px;
+}
+
+.carousel-indicators li {
+  height: 7px;
+  border-radius: 0;
+  overflow: hidden;
+  width: 52px;
+  background: #d71c1c; /* Rojo */
+  padding: 0;
+  margin: 0 2px;
+  border: 0 solid #333;
+}
+
+.carousel-caption h2 {
+  font-size: 56px;
+  color: #ffffff; /* Blanco */
+}
+
+.carousel-caption p {
+  font-size: 22px;
+  text-transform: uppercase;
+  color: #b3d4f3; /* Azul claro */
+  letter-spacing: 2px;
+}
+
+.carousel-item .container {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.btn-outline-primary {
+  color: #00396b; /* Azul medio */
+  border-color: #00396b;
+}
+
+.btn-outline-primary:hover {
+  color: #ffffff;
+  background-color: #d71c1c; /* Rojo */
+  border-color: #d71c1c;
+}
+
+.card-body {
+  background-color: transparent;
+}
+
+.card-body h5 {
+  font-size: 15px;
+  color: #d71c1c; /* Rojo */
+}
+
+.card {
+  border: 3px solid rgba(0, 0, 0, 0.6);
+  background: transparent;
+}
+
+.card-body p {
+  font-size: 13px;
+}
+
+.price-card {
+  /* Color ajustado al diseño */
+}
+
+.bg-dark {
+  background-color: #002b4f !important; /* Azul oscuro */
+}
+
+.navbar-dark .navbar-toggler {
+  color: #002b4f;
+  border-color: #d71c1c;
+}
+
+.wt-blockquote-v2::before {
+  color: #d71c1c; /* Rojo */
+}
+
+.navbar-collapse {
+  padding: 25px 0;
+}
+
+/* Estilos para evitar el desplazamiento horizontal en dispositivos móviles */
+body {
+  overflow-x: hidden;
+}
+
+@media only screen and (max-width: 600px) {
+  /* Para que la barra de navegación tenga el mismo color en móvil */
+  .navbar-dark {
+    background-color: #002b4f !important; /* Azul oscuro */
+  }
+
+  .navbar-dark .navbar-toggler {
+    color: #00396b !important;
+    border-color: #00396b;
+  }
+
+  .carousel-caption h2 {
+    font-size: 19px;
+    color: #ffffff; /* Blanco */
+  }
+
+  .carousel-caption p {
+    font-size: 14px;
+    font-weight: bold;
+  }
+
+  .navbar-dark .navbar-nav .nav-item .nav-link {
+    font-size: 16px; /* Ajustar tamaño de fuente para que sea visible */
+    padding: 0.5rem 1rem;
+  }
+
+  .navbar-dark .navbar-toggler-icon {
+    background-color: #d71c1c !important; /* Rojo */
+  }
+}
+#services h4.h5 {
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: bold;
+  color: #d71c1c; /* Rojo */
+}
+
+.portfolio-menu ul li {
+  padding: 5px 25px;
+  border-radius: 16px;
+  font-size: 14px;
+}
+.service-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
