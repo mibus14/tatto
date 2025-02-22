@@ -29,7 +29,7 @@ h1, h2 {
 
 .bg-primary {
   color: #fff !important;
-  background-color: #002b4f !important; /* Azul oscuro */
+  background-color: #000000 !important; /* Fondo negro */
 }
 
 .btn-primary {
@@ -47,7 +47,7 @@ header {
 }
 
 .navbar .navbar-nav .nav-item .nav-link {
-  color: #ffffff;
+  color: #fff !important; /* Texto blanco en enlaces de la barra de navegación */
   font-size: 0.937rem;
   font-weight: 600;
   padding: 0.625rem 1.25rem;
@@ -58,21 +58,21 @@ header {
 
 ::-moz-selection {
   color: #fff;
-  background-color: #00396b; /* Azul medio */
+  background-color: #000000; /* Fondo negro */
 }
 
 ::selection {
   color: #fff;
-  background-color: #00396b;
+  background-color: #000000; /* Fondo negro */
 }
 
 .bg-primary ::-moz-selection {
-  color: #00396b;
+  color: #000000;
   background-color: #fff;
 }
 
 .bg-primary ::selection {
-  color: #00396b;
+  color: #000000;
   background-color: #fff;
 }
 
@@ -91,7 +91,8 @@ header {
 }
 
 .inner-page {
-  background: #00396b; /* Azul medio */
+  background: #ffffff; /* Fondo blanco */
+  color: #000000; /* Texto negro */
 }
 
 .price-card .card-body ul li {
@@ -150,7 +151,7 @@ header {
 .carousel-caption p {
   font-size: 22px;
   text-transform: uppercase;
-  color: #b3d4f3; /* Azul claro */
+  color: #ffffff; /* Blanco */
   letter-spacing: 2px;
 }
 
@@ -163,8 +164,8 @@ header {
 }
 
 .btn-outline-primary {
-  color: #00396b; /* Azul medio */
-  border-color: #00396b;
+  color: #000000; /* Negro */
+  border-color: #000000;
 }
 
 .btn-outline-primary:hover {
@@ -189,18 +190,20 @@ header {
 
 .card-body p {
   font-size: 13px;
+  color: #000000; /* Texto negro */
 }
 
 .price-card {
-  /* Color ajustado al diseño */
+  background-color: #ffffff; /* Fondo blanco */
+  color: #000000; /* Texto negro */
 }
 
 .bg-dark {
-  background-color: #002b4f !important; /* Azul oscuro */
+  background-color: #000000 !important; /* Negro */
 }
 
 .navbar-dark .navbar-toggler {
-  color: #002b4f;
+  color: #000000;
   border-color: #d71c1c;
 }
 
@@ -220,12 +223,12 @@ body {
 @media only screen and (max-width: 600px) {
   /* Para que la barra de navegación tenga el mismo color en móvil */
   .navbar-dark {
-    background-color: #002b4f !important; /* Azul oscuro */
+    background-color: #000000 !important; /* Negro */
   }
 
   .navbar-dark .navbar-toggler {
-    color: #00396b !important;
-    border-color: #00396b;
+    color: #d71c1c !important;
+    border-color: #d71c1c;
   }
 
   .carousel-caption h2 {
@@ -236,6 +239,7 @@ body {
   .carousel-caption p {
     font-size: 14px;
     font-weight: bold;
+    color: #ffffff; /* Blanco */
   }
 
   .navbar-dark .navbar-nav .nav-item .nav-link {
@@ -247,6 +251,7 @@ body {
     background-color: #d71c1c !important; /* Rojo */
   }
 }
+
 #services h4.h5 {
   text-transform: uppercase;
   font-size: 16px;
@@ -259,6 +264,7 @@ body {
   border-radius: 16px;
   font-size: 14px;
 }
+
 .service-container {
   display: flex;
   flex-direction: column;
